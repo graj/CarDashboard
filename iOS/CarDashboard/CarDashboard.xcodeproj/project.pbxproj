@@ -23,6 +23,8 @@
 		640754D716D409C900CEECBC /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 640754D616D409C900CEECBC /* Default-Landscape~ipad.png */; };
 		640754DB16D40BCE00CEECBC /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 640754DA16D40BCE00CEECBC /* icon.png */; };
 		640754DF16D40DCE00CEECBC /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 640754DE16D40DCE00CEECBC /* HomeVC.m */; };
+		640754E216D41A8000CEECBC /* MapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 640754E116D41A8000CEECBC /* MapVC.m */; };
+		640754E416D41EA500CEECBC /* vwLogo_100x.png in Resources */ = {isa = PBXBuildFile; fileRef = 640754E316D41EA500CEECBC /* vwLogo_100x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,9 @@
 		640754DA16D40BCE00CEECBC /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		640754DD16D40DCE00CEECBC /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
 		640754DE16D40DCE00CEECBC /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		640754E016D41A8000CEECBC /* MapVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapVC.h; sourceTree = "<group>"; };
+		640754E116D41A8000CEECBC /* MapVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapVC.m; sourceTree = "<group>"; };
+		640754E316D41EA500CEECBC /* vwLogo_100x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vwLogo_100x.png; path = CarDashboard/Images/vwLogo_100x.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +134,7 @@
 		640754CF16D4099500CEECBC /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				640754E316D41EA500CEECBC /* vwLogo_100x.png */,
 				640754DA16D40BCE00CEECBC /* icon.png */,
 				640754D616D409C900CEECBC /* Default-Landscape~ipad.png */,
 				640754D016D4099F00CEECBC /* vwLogo.png */,
@@ -143,6 +149,8 @@
 			children = (
 				640754DD16D40DCE00CEECBC /* HomeVC.h */,
 				640754DE16D40DCE00CEECBC /* HomeVC.m */,
+				640754E016D41A8000CEECBC /* MapVC.h */,
+				640754E116D41A8000CEECBC /* MapVC.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -208,6 +216,7 @@
 				640754D516D4099F00CEECBC /* appBackground.png in Resources */,
 				640754D716D409C900CEECBC /* Default-Landscape~ipad.png in Resources */,
 				640754DB16D40BCE00CEECBC /* icon.png in Resources */,
+				640754E416D41EA500CEECBC /* vwLogo_100x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +230,7 @@
 				640754B816D4010500CEECBC /* main.m in Sources */,
 				640754BC16D4010500CEECBC /* AppDelegate.m in Sources */,
 				640754DF16D40DCE00CEECBC /* HomeVC.m in Sources */,
+				640754E216D41A8000CEECBC /* MapVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
