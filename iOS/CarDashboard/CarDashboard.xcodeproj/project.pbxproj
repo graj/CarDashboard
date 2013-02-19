@@ -17,12 +17,12 @@
 		640754C016D4010500CEECBC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 640754BF16D4010500CEECBC /* Default@2x.png */; };
 		640754C216D4010500CEECBC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 640754C116D4010500CEECBC /* Default-568h@2x.png */; };
 		640754C516D4010500CEECBC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 640754C316D4010500CEECBC /* MainStoryboard.storyboard */; };
-		640754C816D4010500CEECBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 640754C716D4010500CEECBC /* ViewController.m */; };
 		640754D316D4099F00CEECBC /* vwLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 640754D016D4099F00CEECBC /* vwLogo.png */; };
 		640754D416D4099F00CEECBC /* appBackgroundWithLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 640754D116D4099F00CEECBC /* appBackgroundWithLogo.png */; };
 		640754D516D4099F00CEECBC /* appBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 640754D216D4099F00CEECBC /* appBackground.png */; };
 		640754D716D409C900CEECBC /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 640754D616D409C900CEECBC /* Default-Landscape~ipad.png */; };
 		640754DB16D40BCE00CEECBC /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 640754DA16D40BCE00CEECBC /* icon.png */; };
+		640754DF16D40DCE00CEECBC /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 640754DE16D40DCE00CEECBC /* HomeVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,13 +40,13 @@
 		640754BF16D4010500CEECBC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		640754C116D4010500CEECBC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		640754C416D4010500CEECBC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		640754C616D4010500CEECBC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		640754C716D4010500CEECBC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		640754D016D4099F00CEECBC /* vwLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vwLogo.png; path = CarDashboard/Images/vwLogo.png; sourceTree = "<group>"; };
 		640754D116D4099F00CEECBC /* appBackgroundWithLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appBackgroundWithLogo.png; path = CarDashboard/Images/appBackgroundWithLogo.png; sourceTree = "<group>"; };
 		640754D216D4099F00CEECBC /* appBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appBackground.png; path = CarDashboard/Images/appBackground.png; sourceTree = "<group>"; };
 		640754D616D409C900CEECBC /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
 		640754DA16D40BCE00CEECBC /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		640754DD16D40DCE00CEECBC /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		640754DE16D40DCE00CEECBC /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,6 @@
 		6407549F16D4010500CEECBC = {
 			isa = PBXGroup;
 			children = (
-				640754CE16D4098C00CEECBC /* Ressources */,
 				640754B116D4010500CEECBC /* CarDashboard */,
 				640754AA16D4010500CEECBC /* Frameworks */,
 				640754A916D4010500CEECBC /* Products */,
@@ -94,11 +93,11 @@
 		640754B116D4010500CEECBC /* CarDashboard */ = {
 			isa = PBXGroup;
 			children = (
+				640754DC16D40DBB00CEECBC /* ViewControllers */,
+				640754CE16D4098C00CEECBC /* Ressources */,
 				640754BA16D4010500CEECBC /* AppDelegate.h */,
 				640754BB16D4010500CEECBC /* AppDelegate.m */,
 				640754C316D4010500CEECBC /* MainStoryboard.storyboard */,
-				640754C616D4010500CEECBC /* ViewController.h */,
-				640754C716D4010500CEECBC /* ViewController.m */,
 				640754B216D4010500CEECBC /* Supporting Files */,
 			);
 			path = CarDashboard;
@@ -124,6 +123,7 @@
 				640754CF16D4099500CEECBC /* Images */,
 			);
 			name = Ressources;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		640754CF16D4099500CEECBC /* Images */ = {
@@ -136,6 +136,15 @@
 				640754D216D4099F00CEECBC /* appBackground.png */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		640754DC16D40DBB00CEECBC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				640754DD16D40DCE00CEECBC /* HomeVC.h */,
+				640754DE16D40DCE00CEECBC /* HomeVC.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,7 +220,7 @@
 			files = (
 				640754B816D4010500CEECBC /* main.m in Sources */,
 				640754BC16D4010500CEECBC /* AppDelegate.m in Sources */,
-				640754C816D4010500CEECBC /* ViewController.m in Sources */,
+				640754DF16D40DCE00CEECBC /* HomeVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

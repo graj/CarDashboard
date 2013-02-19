@@ -15,3 +15,4 @@ Base Idea: http://www.youtube.com/watch?v=Cmz1V-RlBWA
 
 - Settings (in splitviewcontroller):
 - - Enable Autonightmode (or manual)
+- - Password protection on Homebutton
