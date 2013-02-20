@@ -31,7 +31,12 @@
                                     <action selector="pushedMenuShowMapButton:" destination="AjW-nl-vLR" eventType="touchUpInside" id="kQs-Eu-yqw"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="LSc-vd-7Xu" userLabel="Logo Button">
+                            <view alpha="0.60000000000000009" contentMode="scaleToFill" id="IYf-rf-qfD" customClass="InnerMenuButtonView">
+                                <rect key="frame" x="361" y="211" width="300" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="LSc-vd-7Xu" userLabel="Logo Button" customClass="RoundOuterButton">
                                 <rect key="frame" x="233" y="95" width="558" height="558"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" label=""/>
@@ -69,6 +74,7 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
                         <outlet property="homeLogoButton" destination="LSc-vd-7Xu" id="Jlj-Vf-Yoi"/>
+                        <outlet property="innerMenuButtonView" destination="IYf-rf-qfD" id="QOc-YG-hh3"/>
                         <outlet property="menuShowMapButton" destination="r4X-9r-52m" id="vA3-rV-g8c"/>
                         <outlet property="settingsButton" destination="VSH-g2-p91" id="ZjY-jc-Iud"/>
                         <outletCollection property="menuButtons" destination="r4X-9r-52m" id="WIN-XB-B1b"/>
@@ -108,23 +114,6 @@
         <image name="appBackground.png" width="1024" height="748"/>
         <image name="vwLogo.png" width="558" height="558"/>
     </resources>
-    <classes>
-        <class className="HomeVC" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/HomeVC.h"/>
-            <relationships>
-                <relationship kind="action" name="pushedHomeLogoButton:" candidateClass="UIButton"/>
-                <relationship kind="action" name="pushedMenuShowMapButton:" candidateClass="UIButton"/>
-                <relationship kind="action" name="pushedSettingsButton:" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="homeLogoButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="menuShowMapButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="settingsButton" candidateClass="UIButton"/>
-                <relationship kind="outletCollection" name="menuButtons" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-        <class className="MapVC" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MapVC.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>

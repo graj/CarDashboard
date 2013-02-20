@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FD35E3116D4F71A003C41EE /* InnerMenuButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD35E3016D4F71A003C41EE /* InnerMenuButtonView.m */; };
+		3FD35E3416D4FB4E003C41EE /* RoundOuterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD35E3316D4FB4E003C41EE /* RoundOuterButton.m */; };
 		640754AC16D4010500CEECBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 640754AB16D4010500CEECBC /* UIKit.framework */; };
 		640754AE16D4010500CEECBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 640754AD16D4010500CEECBC /* Foundation.framework */; };
 		640754B016D4010500CEECBC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 640754AF16D4010500CEECBC /* CoreGraphics.framework */; };
@@ -28,6 +30,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FD35E2F16D4F71A003C41EE /* InnerMenuButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InnerMenuButtonView.h; sourceTree = "<group>"; };
+		3FD35E3016D4F71A003C41EE /* InnerMenuButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InnerMenuButtonView.m; sourceTree = "<group>"; };
+		3FD35E3216D4FB4E003C41EE /* RoundOuterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundOuterButton.h; sourceTree = "<group>"; };
+		3FD35E3316D4FB4E003C41EE /* RoundOuterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundOuterButton.m; sourceTree = "<group>"; };
 		640754A816D4010500CEECBC /* CarDashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarDashboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		640754AB16D4010500CEECBC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		640754AD16D4010500CEECBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -68,6 +74,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FD35E2E16D4F700003C41EE /* InnerMenuButton */ = {
+			isa = PBXGroup;
+			children = (
+				3FD35E2F16D4F71A003C41EE /* InnerMenuButtonView.h */,
+				3FD35E3016D4F71A003C41EE /* InnerMenuButtonView.m */,
+				3FD35E3216D4FB4E003C41EE /* RoundOuterButton.h */,
+				3FD35E3316D4FB4E003C41EE /* RoundOuterButton.m */,
+			);
+			name = InnerMenuButton;
+			sourceTree = "<group>";
+		};
 		6407549F16D4010500CEECBC = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +115,7 @@
 		640754B116D4010500CEECBC /* CarDashboard */ = {
 			isa = PBXGroup;
 			children = (
+				3FD35E2E16D4F700003C41EE /* InnerMenuButton */,
 				640754DC16D40DBB00CEECBC /* ViewControllers */,
 				640754CE16D4098C00CEECBC /* Ressources */,
 				640754BA16D4010500CEECBC /* AppDelegate.h */,
@@ -231,6 +249,8 @@
 				640754BC16D4010500CEECBC /* AppDelegate.m in Sources */,
 				640754DF16D40DCE00CEECBC /* HomeVC.m in Sources */,
 				640754E216D41A8000CEECBC /* MapVC.m in Sources */,
+				3FD35E3116D4F71A003C41EE /* InnerMenuButtonView.m in Sources */,
+				3FD35E3416D4FB4E003C41EE /* RoundOuterButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +375,7 @@
 				640754CD16D4010500CEECBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

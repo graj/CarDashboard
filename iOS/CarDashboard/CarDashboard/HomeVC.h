@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "InnerMenuButtonView.h"
 
 enum DisplayMode {
     DisplayModeNormal,
@@ -20,6 +21,7 @@ enum DisplayMode {
 @property (weak, nonatomic) UIViewController* activeViewController;
 
 
+@property (strong, nonatomic) IBOutlet InnerMenuButtonView *innerMenuButtonView;
 @property (strong, nonatomic) IBOutlet UIButton *homeLogoButton;
 - (IBAction)pushedHomeLogoButton:(UIButton *)sender;
 
