@@ -14,7 +14,7 @@ Base Idea: http://www.youtube.com/watch?v=Cmz1V-RlBWA
 
 
 - Settings (in splitviewcontroller):
-- - Enable Autonightmode (or manual)
+- - Enable Autonightmode (or manual) ([[UIScreen mainScreen] setBrightness:1.0];)
 - - Password protection on Homebutton
 - - Close menu automaticly
 - - - after timeinterval
