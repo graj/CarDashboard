@@ -96,7 +96,7 @@ static int bigHomeLogoButtonEdgeLength = 558;
                                      edgeLength, edgeLength);
     self.homeLogoButton.frame = homeBtnFrame;
     
-    CGFloat edgeLengthInner = show ? 500 : 300;
+    CGFloat edgeLengthInner = show ? 550 : 300;
     CGRect innerRect = CGRectMake(self.view.frame.size.height / 2 - edgeLengthInner / 2,
                                   self.view.frame.size.width / 2 - edgeLengthInner / 2, edgeLengthInner, edgeLengthInner);
     self.innerMenuButtonView.frame = innerRect;

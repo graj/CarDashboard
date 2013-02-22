@@ -10,4 +10,6 @@
 
 @interface InnerMenuButtonView : UIView
 
+@property (nonatomic, strong) NSMutableArray* buttons;
+
 @end

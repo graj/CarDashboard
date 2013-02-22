@@ -31,7 +31,7 @@
                                     <action selector="pushedMenuShowMapButton:" destination="AjW-nl-vLR" eventType="touchUpInside" id="kQs-Eu-yqw"/>
                                 </connections>
                             </button>
-                            <view alpha="0.60000000000000009" contentMode="scaleToFill" id="IYf-rf-qfD" customClass="InnerMenuButtonView">
+                            <view contentMode="scaleToFill" id="IYf-rf-qfD" customClass="InnerMenuButtonView">
                                 <rect key="frame" x="361" y="211" width="300" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

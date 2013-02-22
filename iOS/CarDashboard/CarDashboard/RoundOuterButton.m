@@ -28,10 +28,33 @@
 }
 */
 
+/*
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     [super touchesBegan:touches withEvent:event];
     NSLog(@"TouchesBegan");
+}
+*/
+
+- (BOOL)pointInside:(CGPoint)point withEvent:(UIEvent *)event
+{
+    // check that the point is at least inside the normal rect
+    if(![super pointInside:point withEvent:event]) return NO;
+    
+    // we'll assume a square view with an exact circle inside, so
+    // the radius of the circle is just half the width
+    CGFloat radius = self.bounds.size.width*0.5f;
+    
+    // the point (radius, radius) is also the centre of the view, so...
+    CGFloat squareOfDistanceFromCentre =
+    (radius - point.x)*(radius - point.x) +
+    (radius - point.y)*(radius - point.y);
+    
+    // if the point is too far away, return NO
+    if(squareOfDistanceFromCentre > radius*radius) return NO;
+    
+    // otherwise we've exhausted possible reasons for answering NO
+    return YES;
 }
 
 @end

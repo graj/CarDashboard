@@ -22,25 +22,53 @@
 - (void)awakeFromNib
 {
     self.backgroundColor = [UIColor clearColor];
+    
+    self.buttons = [[NSMutableArray alloc] init];
+    [self.buttons addObject:@"Button 1"];
+    [self.buttons addObject:@"Button 2"];
+    [self.buttons addObject:@"Button 3"];
+    [self.buttons addObject:@"Button 4"];
+    [self.buttons addObject:@"Button 5"];
 }
 
 - (void)drawRect:(CGRect)rect
 {
-    
-    NSLog(@"DrawRect");
+    NSLog(@"Count: %d", self.buttons.count);
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGContextSetStrokeColorWithColor(context, [UIColor redColor].CGColor);
     
-    // Draw them with a 2.0 stroke width so they are a bit more visible.
-    CGContextSetLineWidth(context, 2.0);
     
-    CGContextMoveToPoint(context, 0,0); //start at this point
+    float onePice = 360/self.buttons.count;
+    float startDeg = 0;
+    float endDeg = onePice;
     
-    //CGContextAddLineToPoint(context, 20, 20); //draw to this point
-    CGContextFillRect(context, self.bounds);
+    startDeg -= endDeg*2;
+    endDeg -= endDeg*2;
     
-    // and now draw the Path!
-    CGContextStrokePath(context);
+    CGFloat x = self.frame.size.width / 2;
+    CGFloat y = self.frame.size.width / 2;
+    CGFloat r = 150;
+    
+    for (NSString* btn in self.buttons) {
+        startDeg += onePice;
+        endDeg += onePice;
+        
+        CGFloat hue = ( arc4random() % 256 / 256.0 );  //  0.0 to 1.0
+        CGFloat saturation = ( arc4random() % 128 / 256.0 ) + 0.5;  //  0.5 to 1.0, away from white
+        CGFloat brightness = ( arc4random() % 128 / 256.0 ) + 0.5;  //  0.5 to 1.0, away from black
+        UIColor *color = [UIColor colorWithHue:hue saturation:saturation brightness:brightness alpha:1];
+        [color setFill];
+        
+        NSLog(@"StartDeg: %f", (startDeg)*M_PI/180);
+        NSLog(@"EndDeg: %f", (endDeg)*M_PI/180);
+        CGContextMoveToPoint(context, x, y);
+        CGContextAddArc(context, x, y, r, (startDeg)*M_PI/180, (endDeg)*M_PI/180, NO);
+        CGContextClosePath(context);
+        CGContextFillPath(context);
+    }
+    
+    
+    
 }
 
 @end
