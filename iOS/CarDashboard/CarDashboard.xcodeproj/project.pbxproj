@@ -17,6 +17,25 @@
 		640754C016D4010500CEECBC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 640754BF16D4010500CEECBC /* Default@2x.png */; };
 		640754C216D4010500CEECBC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 640754C116D4010500CEECBC /* Default-568h@2x.png */; };
 		640754C516D4010500CEECBC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 640754C316D4010500CEECBC /* MainStoryboard.storyboard */; };
+		640F147A170F5395001DBA4B /* MainMenuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 640F1479170F5395001DBA4B /* MainMenuVC.m */; };
+		6421B4EE1711DFCC003B1BD5 /* appBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 6421B4ED1711DFCC003B1BD5 /* appBackground.png */; };
+		6421B4F01711E009003B1BD5 /* vwLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6421B4EF1711E009003B1BD5 /* vwLogo.png */; };
+		6421B4F31711E1D1003B1BD5 /* RoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6421B4F21711E1D1003B1BD5 /* RoundButton.m */; };
+		64B7C659170F671800B3DEC5 /* vw-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B7C658170F671800B3DEC5 /* vw-background.png */; };
+		64B7C65B170F671F00B3DEC5 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B7C65A170F671F00B3DEC5 /* Default-Landscape~ipad.png */; };
+		64B7C667170F6C4E00B3DEC5 /* MGTileMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B7C660170F69CB00B3DEC5 /* MGTileMenuController.m */; };
+		64B7C668170F6C4E00B3DEC5 /* MGTileMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B7C662170F69CB00B3DEC5 /* MGTileMenuView.m */; };
+		64B7C66A170F6C9A00B3DEC5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B7C669170F6C9900B3DEC5 /* QuartzCore.framework */; };
+		64B7C674170F6CC900B3DEC5 /* green_gradient@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B7C66D170F6CC900B3DEC5 /* green_gradient@2x.png */; };
+		64B7C675170F6CC900B3DEC5 /* grey_gradient@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B7C66E170F6CC900B3DEC5 /* grey_gradient@2x.png */; };
+		64B7C676170F6CC900B3DEC5 /* yellow_gradient@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B7C66F170F6CC900B3DEC5 /* yellow_gradient@2x.png */; };
+		64B7C677170F6CC900B3DEC5 /* blue_gradient@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B7C670170F6CC900B3DEC5 /* blue_gradient@2x.png */; };
+		64B7C678170F6CC900B3DEC5 /* orange_gradient@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B7C671170F6CC900B3DEC5 /* orange_gradient@2x.png */; };
+		64B7C679170F6CC900B3DEC5 /* purple_gradient@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B7C672170F6CC900B3DEC5 /* purple_gradient@2x.png */; };
+		64B7C67A170F6CC900B3DEC5 /* red_gradient@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B7C673170F6CC900B3DEC5 /* red_gradient@2x.png */; };
+		64B7C67F170F6CEE00B3DEC5 /* speech@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B7C67C170F6CEE00B3DEC5 /* speech@2x.png */; };
+		64B7C680170F6CEE00B3DEC5 /* Text@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B7C67D170F6CEE00B3DEC5 /* Text@2x.png */; };
+		64B7C681170F6CEE00B3DEC5 /* twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B7C67E170F6CEE00B3DEC5 /* twitter@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +53,33 @@
 		640754BF16D4010500CEECBC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		640754C116D4010500CEECBC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		640754C416D4010500CEECBC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		640F1478170F5395001DBA4B /* MainMenuVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuVC.h; sourceTree = "<group>"; };
+		640F1479170F5395001DBA4B /* MainMenuVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuVC.m; sourceTree = "<group>"; };
+		6421B4ED1711DFCC003B1BD5 /* appBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appBackground.png; sourceTree = "<group>"; };
+		6421B4EF1711E009003B1BD5 /* vwLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vwLogo.png; sourceTree = "<group>"; };
+		6421B4F11711E1D1003B1BD5 /* RoundButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundButton.h; sourceTree = "<group>"; };
+		6421B4F21711E1D1003B1BD5 /* RoundButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundButton.m; sourceTree = "<group>"; };
+		64B7C658170F671800B3DEC5 /* vw-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "vw-background.png"; path = "CarDashboard/vw-background.png"; sourceTree = "<group>"; };
+		64B7C65A170F671F00B3DEC5 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		64B7C65E170F69CB00B3DEC5 /* MGTileMenuDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGTileMenuDelegate.h; sourceTree = "<group>"; };
+		64B7C65F170F69CB00B3DEC5 /* MGTileMenuController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGTileMenuController.h; sourceTree = "<group>"; };
+		64B7C660170F69CB00B3DEC5 /* MGTileMenuController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGTileMenuController.m; sourceTree = "<group>"; };
+		64B7C661170F69CB00B3DEC5 /* MGTileMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGTileMenuView.h; sourceTree = "<group>"; };
+		64B7C662170F69CB00B3DEC5 /* MGTileMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGTileMenuView.m; sourceTree = "<group>"; };
+		64B7C663170F69CB00B3DEC5 /* CloseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseButton.png; sourceTree = "<group>"; };
+		64B7C664170F69CB00B3DEC5 /* CloseButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CloseButton@2x.png"; sourceTree = "<group>"; };
+		64B7C665170F69CB00B3DEC5 /* ellipsis@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ellipsis@2x.png"; sourceTree = "<group>"; };
+		64B7C669170F6C9900B3DEC5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		64B7C66D170F6CC900B3DEC5 /* green_gradient@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green_gradient@2x.png"; sourceTree = "<group>"; };
+		64B7C66E170F6CC900B3DEC5 /* grey_gradient@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grey_gradient@2x.png"; sourceTree = "<group>"; };
+		64B7C66F170F6CC900B3DEC5 /* yellow_gradient@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yellow_gradient@2x.png"; sourceTree = "<group>"; };
+		64B7C670170F6CC900B3DEC5 /* blue_gradient@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue_gradient@2x.png"; sourceTree = "<group>"; };
+		64B7C671170F6CC900B3DEC5 /* orange_gradient@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orange_gradient@2x.png"; sourceTree = "<group>"; };
+		64B7C672170F6CC900B3DEC5 /* purple_gradient@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "purple_gradient@2x.png"; sourceTree = "<group>"; };
+		64B7C673170F6CC900B3DEC5 /* red_gradient@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_gradient@2x.png"; sourceTree = "<group>"; };
+		64B7C67C170F6CEE00B3DEC5 /* speech@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "speech@2x.png"; sourceTree = "<group>"; };
+		64B7C67D170F6CEE00B3DEC5 /* Text@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Text@2x.png"; sourceTree = "<group>"; };
+		64B7C67E170F6CEE00B3DEC5 /* twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64B7C66A170F6C9A00B3DEC5 /* QuartzCore.framework in Frameworks */,
 				640754AC16D4010500CEECBC /* UIKit.framework in Frameworks */,
 				640754AE16D4010500CEECBC /* Foundation.framework in Frameworks */,
 				640754B016D4010500CEECBC /* CoreGraphics.framework in Frameworks */,
@@ -53,6 +100,7 @@
 		6407549F16D4010500CEECBC = {
 			isa = PBXGroup;
 			children = (
+				64B7C65A170F671F00B3DEC5 /* Default-Landscape~ipad.png */,
 				640754B116D4010500CEECBC /* CarDashboard */,
 				640754AA16D4010500CEECBC /* Frameworks */,
 				640754A916D4010500CEECBC /* Products */,
@@ -70,6 +118,7 @@
 		640754AA16D4010500CEECBC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				64B7C669170F6C9900B3DEC5 /* QuartzCore.framework */,
 				640754AB16D4010500CEECBC /* UIKit.framework */,
 				640754AD16D4010500CEECBC /* Foundation.framework */,
 				640754AF16D4010500CEECBC /* CoreGraphics.framework */,
@@ -80,6 +129,7 @@
 		640754B116D4010500CEECBC /* CarDashboard */ = {
 			isa = PBXGroup;
 			children = (
+				64B7C65C170F69A400B3DEC5 /* ExternSources */,
 				640754DC16D40DBB00CEECBC /* ViewControllers */,
 				640754CE16D4098C00CEECBC /* Ressources */,
 				640754BA16D4010500CEECBC /* AppDelegate.h */,
@@ -116,6 +166,10 @@
 		640754CF16D4099500CEECBC /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				6421B4EF1711E009003B1BD5 /* vwLogo.png */,
+				6421B4ED1711DFCC003B1BD5 /* appBackground.png */,
+				64B7C66B170F6CB700B3DEC5 /* Menu */,
+				64B7C658170F671800B3DEC5 /* vw-background.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -123,8 +177,76 @@
 		640754DC16D40DBB00CEECBC /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				640F1474170F5333001DBA4B /* MainMenu */,
+				6421B4F11711E1D1003B1BD5 /* RoundButton.h */,
+				6421B4F21711E1D1003B1BD5 /* RoundButton.m */,
 			);
 			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		640F1474170F5333001DBA4B /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				640F1478170F5395001DBA4B /* MainMenuVC.h */,
+				640F1479170F5395001DBA4B /* MainMenuVC.m */,
+			);
+			name = MainMenu;
+			sourceTree = "<group>";
+		};
+		64B7C65C170F69A400B3DEC5 /* ExternSources */ = {
+			isa = PBXGroup;
+			children = (
+				64B7C65D170F69AA00B3DEC5 /* MGTileMenu */,
+			);
+			name = ExternSources;
+			sourceTree = "<group>";
+		};
+		64B7C65D170F69AA00B3DEC5 /* MGTileMenu */ = {
+			isa = PBXGroup;
+			children = (
+				64B7C65E170F69CB00B3DEC5 /* MGTileMenuDelegate.h */,
+				64B7C65F170F69CB00B3DEC5 /* MGTileMenuController.h */,
+				64B7C660170F69CB00B3DEC5 /* MGTileMenuController.m */,
+				64B7C661170F69CB00B3DEC5 /* MGTileMenuView.h */,
+				64B7C662170F69CB00B3DEC5 /* MGTileMenuView.m */,
+				64B7C663170F69CB00B3DEC5 /* CloseButton.png */,
+				64B7C664170F69CB00B3DEC5 /* CloseButton@2x.png */,
+				64B7C665170F69CB00B3DEC5 /* ellipsis@2x.png */,
+			);
+			name = MGTileMenu;
+			sourceTree = "<group>";
+		};
+		64B7C66B170F6CB700B3DEC5 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				64B7C67B170F6CE600B3DEC5 /* Icons */,
+				64B7C66C170F6CBC00B3DEC5 /* Gradients */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		64B7C66C170F6CBC00B3DEC5 /* Gradients */ = {
+			isa = PBXGroup;
+			children = (
+				64B7C66D170F6CC900B3DEC5 /* green_gradient@2x.png */,
+				64B7C66E170F6CC900B3DEC5 /* grey_gradient@2x.png */,
+				64B7C66F170F6CC900B3DEC5 /* yellow_gradient@2x.png */,
+				64B7C670170F6CC900B3DEC5 /* blue_gradient@2x.png */,
+				64B7C671170F6CC900B3DEC5 /* orange_gradient@2x.png */,
+				64B7C672170F6CC900B3DEC5 /* purple_gradient@2x.png */,
+				64B7C673170F6CC900B3DEC5 /* red_gradient@2x.png */,
+			);
+			name = Gradients;
+			sourceTree = "<group>";
+		};
+		64B7C67B170F6CE600B3DEC5 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				64B7C67C170F6CEE00B3DEC5 /* speech@2x.png */,
+				64B7C67D170F6CEE00B3DEC5 /* Text@2x.png */,
+				64B7C67E170F6CEE00B3DEC5 /* twitter@2x.png */,
+			);
+			name = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +305,20 @@
 				640754C016D4010500CEECBC /* Default@2x.png in Resources */,
 				640754C216D4010500CEECBC /* Default-568h@2x.png in Resources */,
 				640754C516D4010500CEECBC /* MainStoryboard.storyboard in Resources */,
+				64B7C659170F671800B3DEC5 /* vw-background.png in Resources */,
+				64B7C65B170F671F00B3DEC5 /* Default-Landscape~ipad.png in Resources */,
+				64B7C674170F6CC900B3DEC5 /* green_gradient@2x.png in Resources */,
+				64B7C675170F6CC900B3DEC5 /* grey_gradient@2x.png in Resources */,
+				64B7C676170F6CC900B3DEC5 /* yellow_gradient@2x.png in Resources */,
+				64B7C677170F6CC900B3DEC5 /* blue_gradient@2x.png in Resources */,
+				64B7C678170F6CC900B3DEC5 /* orange_gradient@2x.png in Resources */,
+				64B7C679170F6CC900B3DEC5 /* purple_gradient@2x.png in Resources */,
+				64B7C67A170F6CC900B3DEC5 /* red_gradient@2x.png in Resources */,
+				64B7C67F170F6CEE00B3DEC5 /* speech@2x.png in Resources */,
+				64B7C680170F6CEE00B3DEC5 /* Text@2x.png in Resources */,
+				64B7C681170F6CEE00B3DEC5 /* twitter@2x.png in Resources */,
+				6421B4EE1711DFCC003B1BD5 /* appBackground.png in Resources */,
+				6421B4F01711E009003B1BD5 /* vwLogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,8 +329,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64B7C667170F6C4E00B3DEC5 /* MGTileMenuController.m in Sources */,
+				64B7C668170F6C4E00B3DEC5 /* MGTileMenuView.m in Sources */,
 				640754B816D4010500CEECBC /* main.m in Sources */,
 				640754BC16D4010500CEECBC /* AppDelegate.m in Sources */,
+				640F147A170F5395001DBA4B /* MainMenuVC.m in Sources */,
+				6421B4F31711E1D1003B1BD5 /* RoundButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +372,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Christoph Pageler (5T2678CKF5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Christoph Pageler (5T2678CKF5)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -247,6 +388,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "7EACE79D-96A4-48F0-89B7-3000B4BA1EC0";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7EACE79D-96A4-48F0-89B7-3000B4BA1EC0";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -264,7 +407,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Christoph Pageler (5T2678CKF5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Christoph Pageler (5T2678CKF5)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -272,6 +416,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "7EACE79D-96A4-48F0-89B7-3000B4BA1EC0";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7EACE79D-96A4-48F0-89B7-3000B4BA1EC0";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
@@ -281,10 +427,12 @@
 		640754CC16D4010500CEECBC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Christoph Pageler (5T2678CKF5)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CarDashboard/CarDashboard-Prefix.pch";
 				INFOPLIST_FILE = "CarDashboard/CarDashboard-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7EACE79D-96A4-48F0-89B7-3000B4BA1EC0";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -292,10 +440,12 @@
 		640754CD16D4010500CEECBC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Christoph Pageler (5T2678CKF5)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CarDashboard/CarDashboard-Prefix.pch";
 				INFOPLIST_FILE = "CarDashboard/CarDashboard-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7EACE79D-96A4-48F0-89B7-3000B4BA1EC0";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
